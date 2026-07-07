@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500">
+  <!-- Cassette Body -->
+  <rect x="10" y="10" width="480" height="280" rx="20" fill="#E5253E" stroke="#000" stroke-width="4"/>
+  <rect x="25" y="25" width="450" height="250" rx="10" fill="#FFF8DC"/>
+  
+  <!-- Bow Accent -->
+  <g transform="translate(60, 50)">
+    <path d="M0 0 C -15 -15, -30 -5, -25 10 C -20 25, 0 15, 0 0 Z" fill="#E5253E"/>
+    <path d="M0 0 C 15 -15, 30 -5, 25 10 C 20 25, 0 15, 0 0 Z" fill="#E5253E"/>
+    <circle cx="0" cy="0" r="5" fill="#FFB6C1"/>
+  </g>
+
+  <!-- Track Info -->
+  <text x="250" y="60" font-family="Poppins, sans-serif" font-size="24" font-weight="bold" fill="#E5253E" text-anchor="middle">NOW PLAYING 🎶</text>
+  <text x="250" y="90" font-family="Poppins, sans-serif" font-size="28" font-weight="bold" fill="#4A4A4A" text-anchor="middle">Perfect</text>
+  <text x="250" y="115" font-family="monospace" font-size="16" fill="#AEC6CF" text-anchor="middle">Ed Sheeran</text>
+
+  <!-- Progress Bar Background -->
+  <rect x="60" y="140" width="380" height="8" rx="4" fill="#FFB6C1"/>
+  <!-- Progress Bar Fill (Matches 4m30s runtime) -->
+  <rect x="60" y="140" width="0" height="8" rx="4" fill="#E5253E">
+    <animate attributeName="width" from="0" to="380" dur="270s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Time Text -->
+  <text x="60" y="165" font-family="monospace" font-size="12" fill="#4A4A4A">0:00</text>
+  <text x="440" y="165" font-family="monospace" font-size="12" fill="#4A4A4A" text-anchor="end">4:30</text>
+
+  <!-- Spinning Reels -->
+  <g transform="translate(160, 220)">
+    <circle cx="0" cy="0" r="35" fill="#FFF" stroke="#000" stroke-width="4"/>
+    <path d="M 0 -15 L 5 -5 L 15 0 L 5 5 L 0 15 L -5 5 L -15 0 L -5 -5 Z" fill="#E5253E"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="2s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(340, 220)">
+    <circle cx="0" cy="0" r="35" fill="#FFF" stroke="#000" stroke-width="4"/>
+    <path d="M 0 -15 L 5 -5 L 15 0 L 5 5 L 0 15 L -5 5 L -15 0 L -5 -5 Z" fill="#E5253E"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="2s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  
+  <!-- Animated Equalizer -->
+  <g transform="translate(220, 200)">
+    <rect x="0" y="10" width="6" height="20" fill="#AEC6CF">
+      <animate attributeName="height" values="20;40;10;30;20" dur="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="10;-10;20;0;10" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="10" y="0" width="6" height="30" fill="#FFB6C1">
+      <animate attributeName="height" values="30;10;40;20;30" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="0;20;-10;10;0" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="15" width="6" height="15" fill="#E5253E">
+      <animate attributeName="height" values="15;35;5;25;15" dur="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="15;-5;25;5;15" dur="0.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="30" y="5" width="6" height="25" fill="#AEC6CF">
+      <animate attributeName="height" values="25;5;30;10;25" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="5;25;0;20;5" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="40" y="20" width="6" height="10" fill="#FFB6C1">
+      <animate attributeName="height" values="10;30;15;40;10" dur="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="20;0;15;-10;20" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
