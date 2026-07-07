@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400">
+  <path d="M50 200 A 150 150 0 0 1 350 200" fill="none" stroke="#FFB6C1" stroke-width="30" stroke-linecap="round"/>
+  <path d="M50 200 A 150 150 0 0 1 350 200" fill="none" stroke="#E5253E" stroke-width="30" stroke-linecap="round" stroke-dasharray="471" stroke-dashoffset="471">
+    <animate attributeName="stroke-dashoffset" from="471" to="0" dur="2s" fill="freeze"/>
+  </path>
+  
+  <!-- Needle -->
+  <line x1="200" y1="200" x2="200" y2="80" stroke="#4A4A4A" stroke-width="6" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="-90 200 200" to="90 200 200" dur="2s" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1"/>
+  </line>
+  <circle cx="200" cy="200" r="15" fill="#AEC6CF" stroke="#4A4A4A" stroke-width="4"/>
+  
+  <text x="50" y="230" font-family="monospace" font-size="14" fill="#4A4A4A">0%</text>
+  <text x="350" y="230" font-family="monospace" font-size="14" fill="#4A4A4A" text-anchor="end">100%</text>
+  <text x="200" y="150" font-family="Poppins, sans-serif" font-size="24" font-weight="bold" fill="#E5253E" text-anchor="middle">CUTENESS</text>
+</svg>
