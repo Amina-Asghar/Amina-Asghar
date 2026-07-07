@@ -28,7 +28,7 @@
 <div align="center">
   <h2>🎀 Bow Radar</h2>
   <p><i>Bow sense is tingling... detecting nearby bugs and cute things.</i></p>
-  <img src="assets/radar.svg" width="400"/>
+  <img src="assets/radar.svg" width="250"/>
 </div>
 
 <!-- Ribbon Stack (Tech Skills) -->
