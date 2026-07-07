@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500">
+  <rect width="500" height="300" rx="15" fill="#FFF8DC" stroke="#E5253E" stroke-width="3"/>
+  
+  <text x="250" y="40" font-family="monospace" font-size="16" font-weight="bold" fill="#E5253E" text-anchor="middle">AI NEURAL CORE ACTIVITY</text>
+  
+  <!-- Synapses (Lines) -->
+  <g stroke="#FFB6C1" stroke-width="2">
+    <!-- Input to Hidden -->
+    <line x1="100" y1="120" x2="250" y2="100"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="1.5s" repeatCount="indefinite"/></line>
+    <line x1="100" y1="120" x2="250" y2="180"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite"/></line>
+    <line x1="100" y1="180" x2="250" y2="100"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="1.2s" repeatCount="indefinite"/></line>
+    <line x1="100" y1="180" x2="250" y2="180"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="1.8s" repeatCount="indefinite"/></line>
+    <line x1="100" y1="240" x2="250" y2="180"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="1.6s" repeatCount="indefinite"/></line>
+    
+    <!-- Hidden to Output -->
+    <line x1="250" y1="100" x2="400" y2="180"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="1.1s" repeatCount="indefinite"/></line>
+    <line x1="250" y1="140" x2="400" y2="180"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="1.4s" repeatCount="indefinite"/></line>
+    <line x1="250" y1="180" x2="400" y2="180"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="0.9s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- Data Pulses (Traveling dots) -->
+  <g fill="#E5253E">
+    <circle r="3">
+      <animateMotion dur="1.5s" repeatCount="indefinite" path="M100,120 L250,100"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3">
+      <animateMotion dur="2s" repeatCount="indefinite" path="M100,180 L250,180"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M250,100 L400,180"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3">
+      <animateMotion dur="1.8s" repeatCount="indefinite" path="M250,180 L400,180"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Nodes (Input Layer) -->
+  <g>
+    <circle cx="100" cy="120" r="12" fill="#AEC6CF" stroke="#000" stroke-width="2"><animate attributeName="r" values="10;14;10" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="100" cy="180" r="12" fill="#AEC6CF" stroke="#000" stroke-width="2"><animate attributeName="r" values="10;14;10" dur="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="100" cy="240" r="12" fill="#AEC6CF" stroke="#000" stroke-width="2"><animate attributeName="r" values="10;14;10" dur="1.8s" repeatCount="indefinite"/></circle>
+  </g>
+  
+  <!-- Nodes (Hidden Layer) -->
+  <g>
+    <circle cx="250" cy="100" r="12" fill="#FFB6C1" stroke="#000" stroke-width="2"><animate attributeName="r" values="10;14;10" dur="1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="140" r="12" fill="#FFB6C1" stroke="#000" stroke-width="2"><animate attributeName="r" values="10;14;10" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="180" r="12" fill="#FFB6C1" stroke="#000" stroke-width="2"><animate attributeName="r" values="10;14;10" dur="1.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Nodes (Output Layer) -->
+  <g>
+    <circle cx="400" cy="180" r="15" fill="#E5253E" stroke="#000" stroke-width="2"><animate attributeName="r" values="13;17;13" dur="1s" repeatCount="indefinite"/></circle>
+  </g>
+  
+  <text x="100" y="275" font-family="monospace" font-size="12" fill="#4A4A4A" text-anchor="middle">Input</text>
+  <text x="250" y="275" font-family="monospace" font-size="12" fill="#4A4A4A" text-anchor="middle">Hidden</text>
+  <text x="400" y="275" font-family="monospace" font-size="12" fill="#4A4A4A" text-anchor="middle">Output</text>
+</svg>
