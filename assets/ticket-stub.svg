@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" width="500">
+  <path d="M20 20 L 350 20 L 350 50 L 400 50 L 400 150 L 350 150 L 350 180 L 20 180 Z" fill="#FFB6C1" stroke="#E5253E" stroke-width="3" stroke-dasharray="5 5"/>
+  <text x="50" y="70" font-family="monospace" font-size="20" fill="#4A4A4A" font-weight="bold">ADMIT ONE</text>
+  <text x="50" y="110" font-family="Poppins, sans-serif" font-size="24" fill="#E5253E" font-weight="bold">Currently Watching:</text>
+  <text x="50" y="140" font-family="Poppins, sans-serif" font-size="18" fill="#4A4A4A">Insert Favorite Movie Here</text>
+  <text x="420" y="105" font-family="monospace" font-size="14" fill="#E5253E" transform="rotate(90 420 105)">SZABIST CINEMA</text>
+</svg>
