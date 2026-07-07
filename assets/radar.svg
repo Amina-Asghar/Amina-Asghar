@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400">
+  <circle cx="200" cy="200" r="180" fill="#FFF8DC" stroke="#FFB6C1" stroke-width="4"/>
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#FFB6C1" stroke-width="2" stroke-dasharray="10 10"/>
+  <circle cx="200" cy="200" r="60" fill="none" stroke="#FFB6C1" stroke-width="2" stroke-dasharray="10 10"/>
+  <line x1="200" y1="20" x2="200" y2="380" stroke="#FFB6C1" stroke-width="2"/>
+  <line x1="20" y1="200" x2="380" y2="200" stroke="#FFB6C1" stroke-width="2"/>
+  <path d="M200 200 L 380 200 A 180 180 0 0 0 291 41 Z" fill="#E5253E" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M250 100 C 240 80, 220 90, 230 110 C 240 130, 260 120, 250 100 Z M 270 100 C 280 80, 300 90, 290 110 C 280 130, 260 120, 270 100 Z" fill="#E5253E">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M100 250 C 90 230, 70 240, 80 260 C 90 280, 110 270, 100 250 Z M 120 250 C 130 230, 150 240, 140 260 C 130 280, 110 270, 120 250 Z" fill="#AEC6CF">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </path>
+</svg>
