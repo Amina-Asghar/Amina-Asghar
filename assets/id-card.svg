@@ -6,10 +6,12 @@
     <tspan x="40" dy="0">➜  <tspan fill="#E5253E" font-weight="bold">whoami</tspan>: Amina Asghar</tspan>
     <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">university</tspan>: SZABIST Islamabad</tspan>
     <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">department</tspan>: BS Artificial Intelligence</tspan>
-    <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">stack</tspan>: Python, C++, Neural Nets, & Bows 🎀</tspan>
+    <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">stack</tspan>: Python, C++, Neural Nets, &amp; Bows 🎀</tspan>
     <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">mission</tspan>: Conquering AI one cute commit at a time</tspan>
-    <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">status</tspan>: <tspan fill="#FFB6C1">●</tspan> Online & Exploring</tspan>
+    <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">status</tspan>: <tspan fill="#FFB6C1">●</tspan> Online &amp; Exploring</tspan>
   </text>
+  
+  <!-- Mini Kitty Face in corner -->
   <g transform="translate(650, 150) scale(0.6)">
     <path d="M40 20 C 30 0, 10 5, 10 20 Z" fill="#FFF" stroke="#000"/>
     <path d="M60 20 C 70 0, 90 5, 90 20 Z" fill="#FFF" stroke="#000"/>
