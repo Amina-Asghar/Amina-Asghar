@@ -1,8 +1,8 @@
 <img src="assets/header-web.svg" width="100%"/>
 
 <div align="center">
-  <img src="assets/hello-kitty-avatar.svg" width="140" align="center"/>
-  
+  <img src="assets/hello-kitty-avatar.svg" width="140"/>
+  <br/>
   <!-- Typing SVG -->
   <a href="https://github.com/Amina-Asghar">
     <img src="https://readme-typing-svg.demolab.com?font=Baloo+2&size=32&duration=3000&pause=1000&color=E5253E&center=true&vCenter=true&random=false&width=600&height=50&lines=Bow-Coded+Queen+%F0%9F%8E%80;BS-AI+Explorer;Neural+Networks+%26+Cuteness;Always+Learning+New+Tricks" alt="Typing SVG" />
@@ -74,24 +74,24 @@
   <img src="assets/boss-bar.svg" width="600"/>
 </div>
 
-<!-- Whisker Mood Ring -->
+<!-- Cuteness Overload Gauge (Replaced Mood Ring) -->
 <div align="center">
-  <h2>whisker mood ring 💍</h2>
-  <img src="assets/mood-ring.svg" width="200"/>
+  <h2>cuteness overload gauge 📶</h2>
+  <img src="assets/gauge.svg" width="400"/>
 </div>
 
-<!-- Movie Ticket Stub -->
+<!-- Study Log (Replaced Currently Watching) -->
 <div align="center">
-  <h2>currently watching 🎟️</h2>
-  <img src="assets/ticket-stub.svg" width="500"/>
+  <h2>study log 📚</h2>
+  <img src="assets/study-log.svg" width="500"/>
 </div>
 
-<!-- Paw-print Trail (Contributions) -->
+<!-- Contribution Snake Game (Replaced Paw Print Trail) -->
 <div align="center">
-  <h2>paw-print trail 🐾</h2>
-  <p>Watch the paw prints walk across her contributions!</p>
-  <!-- Output of the GitHub Action script -->
-  <img src="assets/paw-trail.svg" width="600"/>
+  <h2>contribution snake 🐍</h2>
+  <p>Watch the snake eat her GitHub contributions!</p>
+  <!-- Output of the GitHub Action Snake workflow -->
+  <img src="https://raw.githubusercontent.com/Amina-Asghar/Amina-Asghar/output/github-contribution-grid-snake.svg" width="600"/>
 </div>
 
 <!-- Cassette Tape Now Playing -->
@@ -110,10 +110,10 @@
 <div align="center">
   <h2>kitty's passport 🛂</h2>
   <p>Places explored & dream destinations</p>
-  <img src="https://img.shields.io/badge/Islamabad-Home_Base-FFB6C1?style=for-the-badge&logo=googlemaps&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Northern_Areas-Wanderlust-AEC6CF?style=for-the-badge&logo=themighty&logoColor=white"/> <br>
-  <img src="https://img.shields.io/badge/Tokyo-Dreaming-E5253E?style=for-the-badge&logo=tower&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Cinema-Weekly_Visits-FFB6C1?style=for-the-badge&logo=cinema4d&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Home_Base-Sargodha-FFB6C1?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Uni-SZABIST_Isb-AEC6CF?style=for-the-badge&logo=googlemaps&logoColor=white"/> <br>
+  <img src="https://img.shields.io/badge/Northern_Areas-Wanderlust-E5253E?style=for-the-badge&logo=themighty&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tokyo-Dreaming-FFB6C1?style=for-the-badge&logo=tower&logoColor=white"/>
 </div>
 
 <!-- Kitty Cafe Location HUD -->
@@ -132,24 +132,26 @@
   </a>
 </div>
 
-<!-- Daily Meow Cards -->
+<!-- Kitty's Agenda (Renamed Daily Meow) -->
 <div align="center">
-  <h2>daily meow 🐱</h2>
+  <h2>kitty's agenda 📋</h2>
   <table border="0">
     <tr>
-      <td width="25%" align="center" bgcolor="#FFF8DC">
+      <td width="50%" align="center" bgcolor="#FFF8DC">
         <h3>🪪 Identity</h3>
         <p>Amina Asghar<br>BS-AI Student<br>SZABIST Isb</p>
       </td>
-      <td width="25%" align="center" bgcolor="#FFB6C1">
+      <td width="50%" align="center" bgcolor="#FFB6C1">
         <h3>🎯 Focus (BS-AI)</h3>
         <p>Machine Learning<br>Neural Networks<br>Data Structures</p>
       </td>
-      <td width="25%" align="center" bgcolor="#AEC6CF">
+    </tr>
+    <tr>
+      <td width="50%" align="center" bgcolor="#AEC6CF">
         <h3>🍿 Off-Duty</h3>
         <p>Watching Movies<br>Exploring Outside<br>Listening to Music</p>
       </td>
-      <td width="25%" align="center" bgcolor="#E5253E">
+      <td width="50%" align="center" bgcolor="#E5253E">
         <h3>🚩 Side Quests</h3>
         <p>Optimizing models<br>Cafe hopping<br>Catching sunsets</p>
       </td>
