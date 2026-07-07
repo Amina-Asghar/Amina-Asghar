@@ -1,7 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%">
+  <!-- Background & Header -->
   <rect x="10" y="10" width="780" height="280" rx="20" fill="#FFF8DC" stroke="#E5253E" stroke-width="4"/>
   <rect x="10" y="10" width="780" height="50" rx="20" fill="#E5253E"/>
   <text x="40" y="45" font-family="monospace" font-size="20" fill="#FFF8DC" font-weight="bold">kitty@szabist:~$ cat id_card.txt</text>
+  
+  <!-- Terminal Text -->
   <text x="40" y="100" font-family="monospace" font-size="18" fill="#4A4A4A">
     <tspan x="40" dy="0">➜  <tspan fill="#E5253E" font-weight="bold">whoami</tspan>: Amina Asghar</tspan>
     <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">university</tspan>: SZABIST Islamabad</tspan>
@@ -11,14 +14,30 @@
     <tspan x="40" dy="35">➜  <tspan fill="#E5253E" font-weight="bold">status</tspan>: <tspan fill="#FFB6C1">●</tspan> Online &amp; Exploring</tspan>
   </text>
   
-  <!-- Mini Kitty Face in corner -->
-  <g transform="translate(650, 150) scale(0.6)">
-    <path d="M40 20 C 30 0, 10 5, 10 20 Z" fill="#FFF" stroke="#000"/>
-    <path d="M60 20 C 70 0, 90 5, 90 20 Z" fill="#FFF" stroke="#000"/>
-    <path d="M50 10 C 70 10, 80 40, 80 60 C 80 90, 60 100, 50 100 C 40 100, 20 90, 20 60 C 20 40, 30 10, 50 10 Z" fill="#FFF" stroke="#000" stroke-width="2"/>
-    <path d="M70 15 C 60 5, 50 10, 55 20 C 60 30, 75 25, 70 15 Z" fill="#E5253E"/>
-    <ellipse cx="40" cy="55" rx="4" ry="6" fill="#000"/>
-    <ellipse cx="60" cy="55" rx="4" ry="6" fill="#000"/>
-    <ellipse cx="50" cy="65" rx="3" ry="2" fill="#FFC20E"/>
+  <!-- 1:1 Hello Kitty Face (Scaled to fit corner) -->
+  <g transform="translate(620, 90) scale(0.65)">
+    <!-- Ears -->
+    <path d="M60 60 C 50 30, 30 40, 30 60 C 30 80, 50 80, 70 80 Z" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+    <path d="M140 60 C 150 30, 170 40, 170 60 C 170 80, 150 80, 130 80 Z" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+    <!-- Head -->
+    <path d="M100 40 C 140 40, 170 80, 170 110 C 170 150, 140 170, 100 170 C 60 170, 30 150, 30 110 C 30 80, 60 40, 100 40 Z" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+    <!-- Bow (Right Ear) -->
+    <g transform="translate(145, 45) scale(0.8)">
+      <path d="M0 0 C -20 -20, -40 -10, -30 15 C -20 40, 0 20, 0 0 Z" fill="#E5253E"/>
+      <path d="M0 0 C 20 -20, 40 -10, 30 15 C 20 40, 0 20, 0 0 Z" fill="#E5253E"/>
+      <circle cx="0" cy="0" r="7" fill="#AEC6CF"/>
+    </g>
+    <!-- Eyes -->
+    <ellipse cx="75" cy="110" rx="7" ry="11" fill="#000"/>
+    <ellipse cx="125" cy="110" rx="7" ry="11" fill="#000"/>
+    <!-- Nose -->
+    <ellipse cx="100" cy="125" rx="6" ry="4" fill="#FFC20E"/>
+    <!-- Whiskers -->
+    <line x1="60" y1="120" x2="20" y2="110" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <line x1="60" y1="130" x2="20" y2="130" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <line x1="60" y1="140" x2="20" y2="150" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <line x1="140" y1="120" x2="180" y2="110" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <line x1="140" y1="130" x2="180" y2="130" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <line x1="140" y1="140" x2="180" y2="150" stroke="#000" stroke-width="3" stroke-linecap="round"/>
   </g>
 </svg>
