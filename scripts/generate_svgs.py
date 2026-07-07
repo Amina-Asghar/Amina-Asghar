@@ -35,30 +35,6 @@ def update_boss_bar():
     with open("assets/boss-bar.svg", "w") as f:
         f.write(svg)
 
-def update_paw_trail():
-    paws = ""
-    x_pos = 20
-    for i in range(5):
-        paws += f'''
-        <g transform="translate({x_pos}, 40) scale(0.5)">
-          <circle cx="10" cy="20" r="8" fill="#FFB6C1"/>
-          <circle cx="0" cy="10" r="4" fill="#FFB6C1"/>
-          <circle cx="20" cy="10" r="4" fill="#FFB6C1"/>
-          <circle cx="5" cy="0" r="3" fill="#FFB6C1"/>
-          <circle cx="15" cy="0" r="3" fill="#FFB6C1"/>
-          <animateTransform attributeName="transform" type="translate" from="{x_pos} 40" to="{x_pos + 400} 40" dur="5s" begin="{i}s" repeatCount="indefinite"/>
-        </g>'''
-        x_pos += 10
-
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" width="600">
-      <rect width="600" height="100" fill="#FFF8DC" rx="15"/>
-      {paws}
-      <text x="300" y="90" font-family="monospace" font-size="12" fill="#E5253E" text-anchor="middle">CONTRIBUTION TRAIL</text>
-    </svg>'''
-    
-    with open("assets/paw-trail.svg", "w") as f:
-        f.write(svg)
-
 def update_grass_counter():
     today = datetime.date.today()
     grass_date = datetime.date(2023, 10, 1) 
@@ -77,6 +53,5 @@ def update_grass_counter():
 if __name__ == "__main__":
     os.makedirs("assets", exist_ok=True)
     update_boss_bar()
-    update_paw_trail()
     update_grass_counter()
     print("SVGs generated successfully! 🎀")
