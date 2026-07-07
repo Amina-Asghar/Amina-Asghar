@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200">
+  <circle cx="100" cy="100" r="80" fill="#FFF8DC" stroke="#000" stroke-width="4"/>
+  <circle cx="100" cy="100" r="60" fill="#FFB6C1">
+    <animate attributeName="fill" values="#FFB6C1;#AEC6CF;#E5253E;#FFF8DC" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="100" y="105" font-family="Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">Mood</text>
+</svg>
