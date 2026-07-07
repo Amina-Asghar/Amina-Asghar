@@ -61,7 +61,7 @@
 <div align="center">
   <h2>kitty telemetry 📊</h2>
   <img src="https://github-readme-stats.vercel.app/api?username=Amina-Asghar&show_icons=true&hide_border=true&title_color=E5253E&icon_color=FFB6C1&text_color=4A4A4A&bg_color=FFF8DC" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amina-Asghar&hide_border=true&background=FFF8DC&ring=E5253E&fire=FFB6C1&currLabel=E5253E&sideLabels=4A4A4A&dates=4A4A4A" height="165"/>
+  <img src="https://streak-stats.demolab.com/?user=Amina-Asghar&hide_border=true&background=FFF8DC&ring=E5253E&fire=FFB6C1&currLabel=E5253E&sideLabels=4A4A4A&dates=4A4A4A" height="165"/>
   <br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amina-Asghar&layout=compact&hide_border=true&title_color=E5253E&text_color=4A4A4A&bg_color=FFF8DC" height="165"/>
 </div>
@@ -74,19 +74,20 @@
   <img src="assets/boss-bar.svg" width="600"/>
 </div>
 
-<!-- Cuteness Overload Gauge (Replaced Mood Ring) -->
+<!-- Kitty's Neural Core -->
 <div align="center">
-  <h2>cuteness overload gauge 📶</h2>
-  <img src="assets/gauge.svg" width="400"/>
+  <h2>kitty's neural core 🧠</h2>
+  <p>Visualizing AI data paths in real-time...</p>
+  <img src="assets/neural-net.svg" width="500"/>
 </div>
 
-<!-- Study Log (Replaced Currently Watching) -->
+<!-- Study Log -->
 <div align="center">
   <h2>study log 📚</h2>
   <img src="assets/study-log.svg" width="500"/>
 </div>
 
-<!-- Contribution Snake Game (Replaced Paw Print Trail) -->
+<!-- Contribution Snake Game -->
 <div align="center">
   <h2>contribution snake 🐍</h2>
   <p>Watch the snake eat her GitHub contributions!</p>
@@ -132,27 +133,33 @@
   </a>
 </div>
 
-<!-- Kitty's Agenda (Renamed Daily Meow) -->
+<!-- Kitty's Agenda (Fixed Width & Colors) -->
 <div align="center">
   <h2>kitty's agenda 📋</h2>
-  <table border="0">
+  <table width="100%" border="0">
     <tr>
-      <td width="50%" align="center" bgcolor="#FFF8DC">
-        <h3>🪪 Identity</h3>
-        <p>Amina Asghar<br>BS-AI Student<br>SZABIST Isb</p>
+      <td width="50%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/%F0%9F%AA%AA_Identity-Amina_Asghar-FFF8DC?style=for-the-badge"/>
+        <br><br>
+        <p>BS-AI Student<br>SZABIST Islamabad</p>
       </td>
-      <td width="50%" align="center" bgcolor="#FFB6C1">
-        <h3>🎯 Focus (BS-AI)</h3>
+      <td width="50%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/%F0%9F%8E%AF_Focus-BS_AI-FFB6C1?style=for-the-badge"/>
+        <br><br>
         <p>Machine Learning<br>Neural Networks<br>Data Structures</p>
       </td>
     </tr>
     <tr>
-      <td width="50%" align="center" bgcolor="#AEC6CF">
-        <h3>🍿 Off-Duty</h3>
-        <p>Watching Movies<br>Exploring Outside<br>Listening to Music</p>
+      <td width="50%" align="center" valign="top">
+        <br>
+        <img src="https://img.shields.io/badge/%F0%9F%8D%BF_Off_Duty-Exploring-AEC6CF?style=for-the-badge"/>
+        <br><br>
+        <p>Watching Movies<br>Going Outside<br>Listening to Music</p>
       </td>
-      <td width="50%" align="center" bgcolor="#E5253E">
-        <h3>🚩 Side Quests</h3>
+      <td width="50%" align="center" valign="top">
+        <br>
+        <img src="https://img.shields.io/badge/%F0%9F%9A%A9_Side_Quests-Optimizing-E5253E?style=for-the-badge"/>
+        <br><br>
         <p>Optimizing models<br>Cafe hopping<br>Catching sunsets</p>
       </td>
     </tr>
