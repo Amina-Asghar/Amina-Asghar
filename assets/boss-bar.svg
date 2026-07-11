@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" width="600">
       <rect x="10" y="20" width="560" height="40" rx="20" fill="#FFB6C1" stroke="#E5253E" stroke-width="2"/>
-      <rect x="10" y="20" width="213" height="40" rx="20" fill="#E5253E">
-        <animate attributeName="width" from="0" to="213" dur="1s" fill="freeze"/>
+      <rect x="10" y="20" width="215" height="40" rx="20" fill="#E5253E">
+        <animate attributeName="width" from="0" to="215" dur="1s" fill="freeze"/>
       </rect>
       <text x="300" y="50" font-family="Poppins, sans-serif" font-size="20" font-weight="bold" fill="#FFF" text-anchor="middle">BOW-O-METER</text>
-      <text x="300" y="85" font-family="monospace" font-size="14" fill="#4A4A4A" text-anchor="middle">Status: Ribbon Unraveling (382/1000)</text>
+      <text x="300" y="85" font-family="monospace" font-size="14" fill="#4A4A4A" text-anchor="middle">Status: Ribbon Unraveling (384/1000)</text>
     </svg>
